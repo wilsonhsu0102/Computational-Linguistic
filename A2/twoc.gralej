@@ -1,0 +1,74 @@
+% Wilson Wei-Sheng Hsu, hsuwils1, 1004146970
+<'the student appeared to sleep'
+{ :'s_np_vp:the student appeared to sleep'
+    s(
+        mood: indicative(
+            tense: past),
+        subcat: list,
+        vsem: $4 = appear(
+            agent: none(
+                nsem: n_sem),
+            beneficiary: none(
+                nsem: n_sem),
+            experiencer: none(
+                nsem: n_sem),
+            theme: $6 = inf_clause(
+                mood: infinitive,
+                subcat: [$0 = np(
+                    nsem: $2 = student)],
+                vsem: $9 = sleep(
+                    agent: none(
+                        nsem: n_sem),
+                    beneficiary: none(
+                        nsem: n_sem),
+                    experiencer: $0,
+                    theme: none(
+                        nsem: n_sem),
+                    vtense: present)),
+            vtense: past))
+    { :'np_det_n:the student'
+        np(
+            nsem: $2)
+        { :'lexicon:the'
+            det
+        }
+        { :'lexicon:student'
+            n(
+                nsem: $2)
+        }
+    }
+    { :'vp_v_to:appeared to sleep'
+        vp(
+            mood: indicative(
+                tense: past),
+            subcat: [$0],
+            vsem: $4)
+        { :'lexicon:appeared'
+            v(
+                subcat: [none(
+                    nsem: n_sem), $6, none(
+                    nsem: n_sem), none(
+                    nsem: n_sem)],
+                vsem: $4)
+        }
+        { :'inf_to_sleep:to sleep'
+            inf_clause(
+                mood: infinitive,
+                subcat: [$0],
+                vsem: $9)
+            { :'lexicon:to'
+                toinf
+            }
+            { :'lexicon:sleep'
+                v(
+                    subcat: [none(
+                        nsem: n_sem), none(
+                        nsem: n_sem), $0, none(
+                        nsem: n_sem)],
+                    vsem: $9)
+            }
+        }
+    }
+}
+>
+

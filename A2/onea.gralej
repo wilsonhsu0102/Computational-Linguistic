@@ -1,0 +1,46 @@
+% Wilson Wei-Sheng Hsu, hsuwils1, 1004146970
+<'fred feeds the dog with biscuits'
+{ :'s_npsg_vpsg:fred feeds the dog with biscuits'
+    s
+    { :'npsg_nprp:fred'
+        npsg
+        { :'lexicon:fred'
+            nprp
+        }
+    }
+    { :'vpsg_vsg_np_pp:feeds the dog with biscuits'
+        vpsg
+        { :'lexicon:feeds'
+            vsg
+        }
+        { :'np_npsg:the dog'
+            np
+            { :'npsg_det_nsg:the dog'
+                npsg
+                { :'lexicon:the'
+                    det
+                }
+                { :'lexicon:dog'
+                    nsg
+                }
+            }
+        }
+        { :'pp_p_np:with biscuits'
+            pp
+            { :'lexicon:with'
+                p
+            }
+            { :'np_nppl:biscuits'
+                np
+                { :'nppl_npl:biscuits'
+                    nppl
+                    { :'lexicon:biscuits'
+                        npl
+                    }
+                }
+            }
+        }
+    }
+}
+>
+

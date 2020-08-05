@@ -1,0 +1,24 @@
+% Wilson Wei-Sheng Hsu, hsuwils1, 1004146970
+
+Question 2A.
+(ii) The student appeared to sleep.
+    appeared:
+        - theme: to sleep
+    sleep: 
+        - experiencer: the student 
+
+(iii) The student promised the teacher to sleep.
+    promised:
+        - agent: the student
+        - theme: to sleep
+        - beneficiary: the teacher
+    sleep:
+        - experiencer: the student
+
+(iv) The student requested the teacher to sleep.
+    requested:
+        - agent: the student
+        - theme: to sleep 
+        - beneficiary: the teacher
+    sleep:
+        - experiencer: the teacher
