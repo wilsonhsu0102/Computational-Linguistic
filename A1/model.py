@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Student name: Wilson Wei-Sheng Hsu
-# Student number: 1004146970
-# teach.cs login username: hsuwils1
+# Student number: 100******0
+# teach.cs login username: h*******
 """Statistical modelling/parsing classes"""
 
 from itertools import islice
